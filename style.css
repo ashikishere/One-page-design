@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, #0DB47C 50%,#fff 50%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+li{
+    list-style: none;
+}
+nav{
+    width: 1140px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.logo h1{
+    font-size: 40px;
+    line-height: 50px;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+.logo p{
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: rgb(246, 245, 245);
+    letter-spacing: 2px;
+}
+
+.nav-icon ul li{
+    display: inline-block;
+    margin-left: 5px;
+}
+.nav-icon ul li a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50% ;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+}
+.nav-icon ul li a:hover{
+    background: #04442f;
+}
+.div-center{
+    width: 1140px;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+}
+.item-image{
+    width: 40%;  
+}
+.item-image img{
+    width: 100%;
+    height: 349px;
+}
+.content{
+    width: 60%;
+}
+.upper-content{
+    padding: 12px 20px;
+}
+
+.upper-content .chat-box{
+    background: #0DB47C;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 100% 75%, 100% 96%, 93% 74%, 0 74%);
+    width: 220px;
+    height: 50px;
+    padding: 0px 10px;   
+}
+.upper-content .chat-box h2{
+    font-size: 20px;
+    line-height: 40px;
+    color: #fff;
+    text-transform: capitalize;
+}
+.upper-content h1{
+    font-size: 30px;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+.upper-content p{
+    font-size: 18px;
+    color: gray;
+    text-transform: capitalize;
+    padding: 10px 0px;
+    border-bottom: 2px solid rgb(240, 230, 230);
+}
+
+.title{
+    padding: 6px 0px;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.title-item{
+    font-size: 16px;
+    color: gray;
+    padding-left: 20px;
+}
+
+.content-icon{
+    width: 100%;
+    background: #0DB47C;
+}
+.content-icon ul{
+    display: block;
+}
+.content-icon ul li{
+    display: inline-block;
+    margin-left: 23px;
+}
+.content-icon ul li a{
+    display: inline-block;
+    font-size: 22px;
+    background: #0DB47C;
+    color: #fff;
+    padding: 14px 20px;
+    margin-left: 20px;
+    
+}
+.content-icon ul li a:hover{
+    background: #04442f;
+}
